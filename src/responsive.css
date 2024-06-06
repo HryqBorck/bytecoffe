@@ -1,0 +1,85 @@
+@media(max-width:1150px){
+    .section-hero .hero-images{
+        display: none;
+    }
+
+    .hero .hero-description{
+        display: flex;
+        flex-direction: column;
+       
+        padding: 3.5rem 3rem;
+        width: 100%;
+    }
+
+    .hero .hero-description hr{
+        display: none;
+    }
+
+    .hero .hero-description .destaque{
+        display: none;
+    }
+
+    nav{
+        padding:  1rem 3rem;
+    }
+
+    .section-receitas{
+        padding: 3.5rem 3rem;
+
+    }
+}
+
+@media(max-width:850px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media(max-width:750px){
+    .section-receitas .receitas{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:500px){
+    header nav .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .hero-description h1{
+        font-size: 2.5rem
+    }
+
+    .paragrafo,
+    .receitas .card-receita .header-receita strong{
+        font-size: 1rem;
+    }
+    .header-receitas h2{
+        font-size: 1.5rem;
+    }
+
+    .receitas .card-receita .header-receita p,
+    .receitas .card-receita .descricao-receita,
+    .receitas .card-receita .user,
+    .destaque
+     {
+        font-size: 0.8rem
+    }
+
+}
+
+@media(max-width:400px){
+    .receitas .card-receita .header-receita{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 0.5rem 0;
+    }
+
+}
